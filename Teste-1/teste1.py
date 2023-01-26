@@ -40,7 +40,7 @@ def main():
             f.write(requestPdf.content)
     
 
-    criarZip = zipfile.ZipFile( 'Teste_Intuitive_Care'+'.zip', 'w', zipfile.ZIP_DEFLATED)
+    criarZip = zipfile.ZipFile( 'Teste-1/Teste_Intuitive_Care'+'.zip', 'w', zipfile.ZIP_DEFLATED)
     zipPasta('Teste-1/pdfs_salvos/',criarZip)
     criarZip.close()    
 
